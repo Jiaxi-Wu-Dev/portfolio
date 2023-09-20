@@ -1,0 +1,13 @@
+.container-style {
+  height: 50vh;
+}
+
+#tsparticles {
+  height: 50vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+}
