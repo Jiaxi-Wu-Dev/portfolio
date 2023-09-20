@@ -5,10 +5,13 @@ import LineComponent from "./components/LineComponent";
 
 function App() {
   return (
-    <div>
-      <ParticlesComponent />
-
-      <LineComponent />
+    <div id="homePageSplitScreen">
+      <div>
+        <ParticlesComponent />
+      </div>
+      <div>
+        <LineComponent />
+      </div>
     </div>
   );
 }
