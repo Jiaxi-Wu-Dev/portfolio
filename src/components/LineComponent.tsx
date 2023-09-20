@@ -23,7 +23,7 @@ export class ParticlesContainer2 extends React.PureComponent<IProps> {
 
     return (
       <div className={"container-line-style"}>
-        <Particles options={options} init={this.customInit} id="unrelated" />
+        <Particles id="unrelated" options={options} init={this.customInit} />
       </div>
     );
   }
